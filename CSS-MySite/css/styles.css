@@ -1,0 +1,132 @@
+/********** Tags Selectors ******************************** ***********************/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: sans-serif;
+  background-color: #fafafa;
+}
+p{
+  font-size: 17px;
+  line-height: 2;
+  font-family: 'Kanit', sans-serif;
+
+}
+ h2  {
+  color:#66BFBF ;
+}
+h4{
+  color:#66BFBF ;
+}
+a {
+  color: #323232;
+}
+hr{
+  margin: 150px auto 30px;
+  border: dotted #bbbbbb 6PX;
+  BORDER-BOTTOM: NONE;
+width:5%;
+}
+
+/********************************** Class Selectors ********************************/
+.Top-Container {
+  background-color: #32dbc6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.Middle-Container {
+
+position: relative;
+background-color: #fafafa;
+}
+
+.Bottom-Container {
+  background-color: #32dbc6;
+  position: relative;
+  padding: 5px;
+
+}
+.profile{
+  margin:40px  auto ;
+  width:50%;
+  text-align: center;
+
+}
+
+.cloud-1 {
+  position: absolute;
+  right: 300px;
+  top: 100px;
+}
+
+.cloud-2 {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+.btn {
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #1199E);
+  background-image: -moz-linear-gradient(top, #11CDD4, #1199E);
+  background-image: -ms-linear-gradient(top, #11CDD4, #1199E);
+  background-image: -o-linear-gradient(top, #11CDD4, #1199E);
+  background-image: linear-gradient(to bottom, #11CDD4, #1199E);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Kanit', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30E3CB;
+  background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+  text-decoration: none;
+}
+.profile-img{
+margin-right:  30px;
+float: left;
+  border-radius: 50%;
+  height:210px;
+
+}
+.contact-icons{
+  height: 35px;
+  margin:25px;
+}
+.footer-p{
+  font-size: 1em;
+  font-weight: bold;
+  font-family: sans-serif;
+color: #393e46;
+}
+.hello {
+  padding-top: 50px;
+  padding-right: 80px;
+}
+/**********************************  ID Selectors  ********************************/
+#Name {
+  margin: 50px auto auto;
+
+  font-size: 5em;
+  padding-top: 60px;
+  font-family: 'Marck Script', cursive;
+  color: #323232;
+
+}
+#intro{
+
+    padding-bottom: 30px;
+    font-size: 2em;
+    font-weight: normal;
+    font-family: 'Mali', cursive;
+      color: #323232;
+
+}
